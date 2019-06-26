@@ -10,7 +10,8 @@ namespace VsGitExample.Controllers
     {
         // GET: Demo
         public ActionResult Index()
-        {
+        { 
+        viewbag.name="naresh";
             return View();
         }
     }
