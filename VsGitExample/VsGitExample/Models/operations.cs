@@ -9,10 +9,7 @@ namespace VsGitExample.Models
     {
         public int addition( int x,int y)
         {
-            int a = x;
-            int b = y;
-            
-            return a+b;
+            return x+y;
         }
     }
 }
