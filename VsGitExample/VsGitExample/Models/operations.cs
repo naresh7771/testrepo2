@@ -7,9 +7,12 @@ namespace VsGitExample.Models
 {
     public class operations
     {
-        public int addition()
+        public int addition( int x,int y)
         {
-            return 0;
+            int a = x;
+            int b = y;
+            
+            return a+b;
         }
     }
 }
